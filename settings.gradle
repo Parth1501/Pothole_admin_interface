@@ -1,0 +1,2 @@
+rootProject.name='PotholeAdmin'
+include ':app'
