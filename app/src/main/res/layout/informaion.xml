@@ -17,8 +17,9 @@
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="350dp"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="22dp"
-                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
                 android:clickable="true"
                 android:elevation="20dp"
                 android:focusable="true"
@@ -134,11 +135,11 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="125dp"
             android:layout_below="@+id/upper"
-            android:layout_marginLeft="15dp"
 
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="43dp"
             android:orientation="horizontal">
 
@@ -175,8 +176,7 @@
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:layout_below="@+id/status_check"
-                android:layout_marginLeft="100dp"
-                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
                 android:background="#FF0000"
                 android:drawableLeft="@drawable/cancel"
                 android:onClick="delete"
